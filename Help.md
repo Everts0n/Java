@@ -15,3 +15,4 @@ Commands: </br>
 **git config --global user.name** - *control who we are*</br>
 
 https://git-scm.com/book/ru/v2 - more info on russian</br>
+**Артур** - https://github.com/ArturPromon/Java2
