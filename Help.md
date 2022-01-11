@@ -2,7 +2,7 @@
 Commands: </br>
 **dir/ls** - *To check where we are.. dir-Windows, ls-Mac*</br>
 **cd/cd..** - *navigation*</br>
-**git clone** - *https://github.com/Everts0n/Java.git*</br>
+**git clone** - *https://github.com/Everts0n/Java.git*</br> (В конце можно добавить свое любое название папки)
 **git status** - *control of some changes in our directory/repository*</br>
 **git pull** - *get some files from our repository*</br>
 **git add --all** - *use this command to add the files or changes in files to the repository*</br>
