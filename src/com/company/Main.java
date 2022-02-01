@@ -3,7 +3,6 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         int num1, num2, num3;
         num1 = 5;
         num2 = 4;
@@ -18,8 +17,5 @@ public class Main {
         }else{
             System.out.print("num3 is some number");
         }
-=======
-	// all done
->>>>>>> 6360e8d2bf9d6ff4b8ff63967740905efd689e52
     }
 }
