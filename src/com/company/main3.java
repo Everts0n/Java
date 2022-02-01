@@ -6,6 +6,10 @@ public class main3 {
         a = 6;
         b = 10;
 
-        if(a>2  )
+        if(a>2 && a<11 || b >= 6 && b<14){
+            System.out.print("true");
+        }else{
+            System.out.print("False");
+        }
     }
 }
