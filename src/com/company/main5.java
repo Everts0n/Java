@@ -9,33 +9,83 @@ public class main5 {
         int num2;
         int result;
         char mark;
+        boolean IsTrue = true;
         Scanner scn = new Scanner(System.in);
+
         System.out.print("Enter please first number: ");
         num1 = scn.nextInt();
-        System.out.print("Enter please an operator (+,-,*,/): ");
-        mark = scn.next().charAt(0);
         System.out.print("Enter please second number: ");
         num2 = scn.nextInt();
 
-        switch (mark){
-            case '+':
-                result = num1 + num2;
-                break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '*':
-                result = num1 * num2;
-                break;
-            case '/':
-                result = num1 / num2;
-                break;
-            default:
-                System.out.println("Error!!!");
-                return;
+        while (IsTrue) {
+            System.out.print("Enter please an operator (+,-,*,/): ");
+            mark = scn.next().charAt(0);
+
+            switch (mark) {
+                case '+':
+                    result = num1 + num2;
+                    System.out.print("Result is: " + result);
+                    IsTrue = false;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    System.out.print("Result is: " + result);
+                    IsTrue = false;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    System.out.print("Result is: " + result);
+                    IsTrue = false;
+                    break;
+                case '/':
+                    result = num1 / num2;
+                    System.out.print("Result is: " + result);
+                    IsTrue = false;
+                    break;
+
+                default:
+                    System.out.print("Incorrect operator! ");
+                    IsTrue = true;
+
+            }
         }
-        System.out.print("Result is: " + result);
+
+//            default:
+//                while (IsTrue){
+//                System.out.println("Error, please enter operator again: ");
+//                mark = scn.next().charAt(0);
+//                switch (mark) {
+//                    case '+':
+//                        result = num1 + num2;
+//                        System.out.print("Result is: " + result);
+//                        IsTrue = false;
+//                        break;
+//                    case '-':
+//                        result = num1 - num2;
+//                        System.out.print("Result is: " + result);
+//                        IsTrue = false;
+//                        break;
+//                    case '*':
+//                        result = num1 * num2;
+//                        System.out.print("Result is: " + result);
+//                        IsTrue = false;
+//                        break;
+//                    case '/':
+//                        result = num1 / num2;
+//                        System.out.print("Result is: " + result);
+//                        IsTrue = false;
+//                        break;
+//                    default:
+//                        IsTrue = true;
+//                }
+
+
+
+
+        }
+
 
 
     }
-}
+
+
